@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#00189C</color>
+    <color name="colorAccent">#02FFE1</color>
+    <color name="light">#3703DAC5</color>
+    <color name="bg">#ffffff</color>
+    <color name="blue">#02FFE1</color>
+    <color name="cam">#FF9100</color>
+    <color name="cam2">#FACE93</color>
+    <color name="blue2">#2979FF</color>
+    <color name="yellow">#F4F72E</color>
+    <color name="lightgrey">#EEEFF0</color>
+    <color name="lightyellow">#E1C15E</color>
+</resources>

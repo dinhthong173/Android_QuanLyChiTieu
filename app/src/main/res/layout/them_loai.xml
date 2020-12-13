@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/blue2"
+        android:background="@color/yellow"
+        android:id="@+id/titleThemLoai"
+        android:text="THÊM LOẠI THU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="25dp"
+            android:textColor="@color/cam"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            android:id="@+id/them_loai_thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên loại mới" />
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:textColor="@color/blue2"
+                android:background="@drawable/border_lightblue"
+                android:id="@+id/xoaTextLT"
+                android:text="Xóa"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:textColor="@color/blue2"
+                android:background="@drawable/border_lightblue"
+                android:id="@+id/btnThemLT"
+                android:textSize="24dp"
+                android:text="Thêm"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
